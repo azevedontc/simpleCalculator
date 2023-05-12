@@ -1,14 +1,18 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
-    background-color: aliceblue;
+    background-color: #333333;
 }
 
 #calculator{
     width: 320px;
     height: 520px;
-    background-color: rgb(53, 53, 53);    
-    margin: auto;
+    background-color: #a8a8a8;    
+    margin: 30px auto;
     top: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 #result{
@@ -34,7 +38,7 @@ body{
     margin: -50px 20px;
     font-size: 30px;
     background-color: aliceblue;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .operator , .number , .empty{
@@ -42,7 +46,7 @@ body{
     height: 50px;
     margin: 15px;
     float: left;
-    border-radius: 50%;
+    border-radius: 10px;
     border-width: 0;
     font-weight: bold;
     font-size: 15px;
